@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'django_tutorial.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -86,6 +86,7 @@ DATABASES = {
         'PASSWORD': 'p@ssw0rd',
     }
 }
+"""
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
